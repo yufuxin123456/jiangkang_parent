@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/jiangkang_parent.iml" filepath="$PROJECT_DIR$/.idea/jiangkang_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jk_api_service/jk_api_service.iml" filepath="$PROJECT_DIR$/jk_api_service/jk_api_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jk_appointment_service/jk_appointment_service.iml" filepath="$PROJECT_DIR$/jk_appointment_service/jk_appointment_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jk_common/jk_common.iml" filepath="$PROJECT_DIR$/jk_common/jk_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jk_diet_service/jk_diet_service.iml" filepath="$PROJECT_DIR$/jk_diet_service/jk_diet_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jk_login_service/jk_login_service.iml" filepath="$PROJECT_DIR$/jk_login_service/jk_login_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jk_member_service/jk_member_service.iml" filepath="$PROJECT_DIR$/jk_member_service/jk_member_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jk_model/jk_model.iml" filepath="$PROJECT_DIR$/jk_model/jk_model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jk_motion_service/jk_motion_service.iml" filepath="$PROJECT_DIR$/jk_motion_service/jk_motion_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jk_utils/jk_utils.iml" filepath="$PROJECT_DIR$/jk_utils/jk_utils.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f4165e94-32b9-4593-96a1-3f89946bead7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\dev\maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../dev/maven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\dev\maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1flN9mmoBRq3JCbG2bT67JWjlLV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jk_api_service/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.czxy.jk.mapper" />
+      <recent name="com.czxy.jk.service" />
+      <recent name="com.czxy.jk.controller" />
+      <recent name="com.czxy.jk.member" />
+      <recent name="com.czxy.jk.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\CZhealthy\jiangkang_parent\jk_api_service\src\main\resources" />
+      <recent name="D:\workspace\CZhealthy\jiangkang_parent\jk_motion_service\src\main\resources" />
+      <recent name="D:\workspace\CZhealthy\jiangkang_parent\jk_appointment_service\src\main\resources" />
+      <recent name="D:\workspace\CZhealthy\jiangkang_parent\jk_appointment_service\src\main\java\com\czxy\jk" />
+      <recent name="D:\workspace\CZhealthy\jiangkang_parent\jk_login_service\src\main\java\com\czxy\jk" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DietApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.czxy.jk.login.Login" />
+      <module name="jk_model" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czxy.jk.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo" />
+      <module name="jiangkang_parent" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DietApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jk_diet_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.czxy.jk.DietApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jk_login_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.czxy.jk.LoginApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jk_member_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.czxy.jk.MemberApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MotionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jk_motion_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.czxy.jk.MotionApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="appointment" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jk_appointment_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.czxy.jk.AppointmentApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.demo" />
+      <item itemvalue="Application.Login" />
+      <item itemvalue="Spring Boot.MotionApplication" />
+      <item itemvalue="Spring Boot.appointment" />
+      <item itemvalue="Spring Boot.LoginApplication" />
+      <item itemvalue="Spring Boot.DietApplication" />
+      <item itemvalue="Spring Boot.MemberApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.demo" />
+        <item itemvalue="Spring Boot.LoginApplication" />
+        <item itemvalue="Application.Login" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4165e94-32b9-4593-96a1-3f89946bead7" name="Default Changelist" comment="" />
+      <created>1596788569836</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596788569836</updated>
+      <workItem from="1596788574143" duration="5443000" />
+      <workItem from="1596794643296" duration="6050000" />
+      <workItem from="1596847907055" duration="2319000" />
+      <workItem from="1596858653463" duration="709000" />
+      <workItem from="1596869669186" duration="12992000" />
+      <workItem from="1596936769919" duration="7596000" />
+      <workItem from="1597017698750" duration="6399000" />
+      <workItem from="1597103856978" duration="7435000" />
+      <workItem from="1597137538731" duration="5946000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="403" y="0" width="744" height="824" key="#LoginApplication" timestamp="1597137802672">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="403" y="0" width="744" height="824" key="#LoginApplication/0.0.1536.824@0.0.1536.824" timestamp="1597137802672" />
+    <state x="403" y="0" width="744" height="824" key="#MemberApplication_(1)" timestamp="1597149311502">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="403" y="0" width="744" height="824" key="#MemberApplication_(1)/0.0.1536.824@0.0.1536.824" timestamp="1597149311502" />
+    <state x="249" y="0" key="#Project_Structure" timestamp="1596788893988">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1596788893988" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597147200852">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1597147200852" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1597106946902">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1597106946902" />
+    <state x="498" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1597147194503">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1597147194503" />
+    <state x="370" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597146893859">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="370" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1597146893859" />
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597026835513">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597026835513" />
+    <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1597138035041">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1597138035041" />
+    <state width="1206" height="262" key="GridCell.Tab.0.bottom" timestamp="1597158216962">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1206" height="262" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597158216962" />
+    <state width="1206" height="262" key="GridCell.Tab.0.center" timestamp="1597158216961">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1206" height="262" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597158216961" />
+    <state width="1206" height="262" key="GridCell.Tab.0.left" timestamp="1597158216961">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1206" height="262" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597158216961" />
+    <state width="1206" height="262" key="GridCell.Tab.0.right" timestamp="1597158216961">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1206" height="262" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597158216961" />
+    <state width="1206" height="262" key="GridCell.Tab.1.bottom" timestamp="1597158216963">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1206" height="262" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597158216963" />
+    <state width="1206" height="262" key="GridCell.Tab.1.center" timestamp="1597158216962">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1206" height="262" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597158216962" />
+    <state width="1206" height="262" key="GridCell.Tab.1.left" timestamp="1597158216962">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1206" height="262" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597158216962" />
+    <state width="1206" height="262" key="GridCell.Tab.1.right" timestamp="1597158216962">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1206" height="262" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597158216962" />
+    <state width="1206" height="262" key="GridCell.Tab.2.bottom" timestamp="1597158216966">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1206" height="262" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597158216966" />
+    <state width="1206" height="262" key="GridCell.Tab.2.center" timestamp="1597158216963">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1206" height="262" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1597158216963" />
+    <state width="1206" height="262" key="GridCell.Tab.2.left" timestamp="1597158216963">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1206" height="262" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1597158216963" />
+    <state width="1206" height="262" key="GridCell.Tab.2.right" timestamp="1597158216964">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1206" height="262" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1597158216964" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1596791105291">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1596791105291" />
+    <state x="429" y="115" key="NewModule_or_Project.wizard" timestamp="1597138045425">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="429" y="115" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1597138045425" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1597138049950">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597138049950" />
+    <state x="467" y="146" width="602" height="532" key="find.popup" timestamp="1596794439287">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="467" y="146" width="602" height="532" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1596794439287" />
+    <state x="178" y="72" key="new project wizard" timestamp="1597158194488">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="72" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1597158194488" />
+  </component>
+</project>

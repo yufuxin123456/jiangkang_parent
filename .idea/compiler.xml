@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jk_appointment_service" />
+        <module name="jk_common" />
+        <module name="jk_diet_service" />
+        <module name="jk_model" />
+        <module name="jk_api_service" />
+        <module name="jk_utils" />
+        <module name="jk_motion_service" />
+        <module name="jk_member_service" />
+        <module name="jk_login_service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jiangkang_parent" target="1.8" />
+      <module name="jk_api_service" target="1.8" />
+      <module name="jk_appointment_service" target="1.8" />
+      <module name="jk_common" target="1.8" />
+      <module name="jk_diet_service" target="1.8" />
+      <module name="jk_login_service" target="1.8" />
+      <module name="jk_member_service" target="1.8" />
+      <module name="jk_model" target="1.8" />
+      <module name="jk_motion_service" target="1.8" />
+      <module name="jk_utils" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jk_api_service" options="-parameters" />
+      <module name="jk_appointment_service" options="-parameters" />
+      <module name="jk_diet_service" options="-parameters" />
+      <module name="jk_login_service" options="-parameters" />
+      <module name="jk_member_service" options="-parameters" />
+      <module name="jk_model" options="-parameters" />
+      <module name="jk_motion_service" options="-parameters" />
+      <module name="jk_utils" options="-parameters" />
+    </option>
+  </component>
+</project>
