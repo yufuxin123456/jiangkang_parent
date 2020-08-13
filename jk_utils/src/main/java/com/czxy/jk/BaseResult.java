@@ -24,7 +24,7 @@ import java.util.Map;
 @AllArgsConstructor
 public class BaseResult<T> {
 
-    //成功状态码，这是我们自己写的内容
+    //成功状态码，这是我们自己写的内容 为Git做出贡献
     public static final int OK = 1;
     //失败状态码
     public static final int ERROR = 0;
