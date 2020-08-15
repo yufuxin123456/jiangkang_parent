@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
+@RestController
 @RequestMapping("/appointment")
 public class AppointmentController implements AppointmentApi {
 
@@ -25,7 +26,7 @@ public class AppointmentController implements AppointmentApi {
 
     @Override
     @PostMapping()
-    public BaseResult appointmentAdd(Appointment appointment) {
+    public BaseResult appointmentAdd(@RequestBody Appointment appointment) {
         return appointmentService.appointmentAdd(appointment);
     }
 

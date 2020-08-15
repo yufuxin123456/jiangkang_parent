@@ -10,8 +10,8 @@ import java.util.List;
 @org.apache.ibatis.annotations.Mapper
 public interface MemberMapper extends Mapper<MemberProfile> {
 
-    @Select("SELECT * FROM member_profile WHERE membername like #{memberName} or id like #{memberName} ")
-    List<MemberProfile> findByMemberName(@Param("memberName") String memberName);
+    @Select("SELECT * FROM member_profile WHERE username like #{name} or id like #{name} ")
+    List<MemberProfile> findByMemberName(@Param("name") String name);
 
 
 

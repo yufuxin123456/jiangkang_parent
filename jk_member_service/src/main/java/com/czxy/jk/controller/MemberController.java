@@ -9,6 +9,7 @@ import com.github.pagehelper.PageInfo;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.UUID;
 
 @RestController
 @RequestMapping("/member")
@@ -19,33 +20,39 @@ public class MemberController implements MemberApi {
 
     @PostMapping
     @Override
-    public BaseResult memberAll(Page page){
+    public BaseResult memberAll(@RequestBody Page page){
         PageInfo<MemberProfile> list = memberService.memberAll(page);
         return BaseResult.ok("成功" , list);
     }
 
     @Override
     @GetMapping("/{mpid}")
-    public BaseResult memberFindBy(@PathVariable("mpid") Integer mpid) {
+    public BaseResult memberFindBy(@PathVariable("mpid") String mpid) {
         MemberProfile memberProfile = memberService.memberFindBy(mpid);
         return BaseResult.ok("成功" ,memberService.memberFindBy(mpid) );
     }
 
     @Override
     @PutMapping
-    public BaseResult memberEdit(MemberProfile memberProfile) {
+    public BaseResult memberEdit(@RequestBody MemberProfile memberProfile) {
         return memberService.memberEdit(memberProfile);
     }
 
     @Override
     @PostMapping("/add")
-    public BaseResult memberAdd(MemberProfile memberProfile) {
+    public BaseResult memberAdd(@RequestBody MemberProfile memberProfile) {
         return memberService.memberAdd(memberProfile);
     }
 
     @Override
+    @GetMapping("/uuid")
+    public BaseResult mpid() {
+        return BaseResult.ok(UUID.randomUUID().toString().replaceAll("-", "")+"");
+    }
+
+    @Override
     @DeleteMapping("/{mpid}")
-    public BaseResult memberDeleteByMPId(@PathVariable("mpid") Integer mpid) {
+    public BaseResult memberDeleteByMPId(@PathVariable("mpid") String mpid) {
         return memberService.memberDeleteByMPId(mpid);
     }
 

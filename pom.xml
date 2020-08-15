@@ -18,6 +18,9 @@
         <module>jk_appointment_service</module>
         <module>jk_motion_service</module>
         <module>jk_diet_service</module>
+        <module>jk_test_parent</module>
+        <module>jk_fileStore_service</module>
+        <module>fastDFS_test</module>
     </modules>
 
 

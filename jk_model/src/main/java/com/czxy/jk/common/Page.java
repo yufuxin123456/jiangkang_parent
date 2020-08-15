@@ -10,8 +10,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Page {
 
-    private Integer pageNum;
-    private Integer pageSize;
+    private Integer pageNum; // 第几页
+    private Integer pageSize;// 一页多少条
     private String name;
 
 }

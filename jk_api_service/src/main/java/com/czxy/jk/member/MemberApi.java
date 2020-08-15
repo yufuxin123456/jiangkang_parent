@@ -15,9 +15,9 @@ public interface MemberApi {
 
     @ApiOperation("会员编辑<查询>" )
     @ApiImplicitParams({
-            @ApiImplicitParam(name="mpid",value = "唯一标识",required=true,paramType="path",dataType="int")
+            @ApiImplicitParam(name="mpid",value = "唯一标识",required=true,paramType="path",dataType="String")
     })
-    public  BaseResult memberFindBy(Integer mpid);
+    public  BaseResult memberFindBy(String mpid);
 
     @ApiOperation("会员编辑<修改>" )
     public  BaseResult memberEdit(MemberProfile memberProfile);
@@ -25,9 +25,13 @@ public interface MemberApi {
     @ApiOperation("会员添加" )
     public  BaseResult memberAdd(MemberProfile memberProfile);
 
+    @ApiOperation("档案id回显" )
+    public BaseResult mpid();
+
+
     @ApiOperation("会员删除")
     @ApiImplicitParams({
-            @ApiImplicitParam(name="mpid",value = "唯一标识",required=true,paramType="path",dataType="int")
+            @ApiImplicitParam(name="mpid",value = "唯一标识",required=true,paramType="path",dataType="String")
     })
-    public  BaseResult memberDeleteByMPId(Integer mpid);
+    public  BaseResult memberDeleteByMPId(String mpid);
 }

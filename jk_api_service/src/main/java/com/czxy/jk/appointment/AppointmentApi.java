@@ -5,15 +5,16 @@ import com.czxy.jk.common.Page;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.web.bind.annotation.RequestBody;
 
 @Api(value="预约管理",description = "预约管理_预约列表")
 public interface AppointmentApi {
 
     @ApiOperation("列表预约查询")
-    public BaseResult selectAll(Page page);
+    public BaseResult selectAll(@RequestBody Page page);
 
     @ApiOperation("添加预约列表")
-    public  BaseResult appointmentAdd(Appointment appointment);
+    public  BaseResult appointmentAdd(@RequestBody Appointment appointment);
 
 
     @ApiOperation("确认预约")

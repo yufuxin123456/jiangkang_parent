@@ -19,7 +19,7 @@ public class MotionController implements MotionLibraryApi {
 
     @Override
     @PostMapping
-    public BaseResult motionAll(Page page) {
+    public BaseResult motionAll(@RequestBody Page page) {
         PageInfo<DietLibrary> info = motionService.motionAll(page);
         return BaseResult.ok("成功", info);
     }
@@ -33,7 +33,7 @@ public class MotionController implements MotionLibraryApi {
 
     @Override
     @PutMapping
-    public BaseResult motionEdit(DietLibrary dietLibrary) {
+    public BaseResult motionEdit(@RequestBody DietLibrary dietLibrary) {
         Integer i = motionService.motionEdit(dietLibrary);
         if (i == 1){
             return BaseResult.ok("修改成功");
@@ -46,7 +46,7 @@ public class MotionController implements MotionLibraryApi {
 
     @Override
     @PostMapping("/add")
-    public BaseResult motionAdd(DietLibrary dietLibrary) {
+    public BaseResult motionAdd(@RequestBody DietLibrary dietLibrary) {
         Integer i = motionService.motionAdd(dietLibrary);
         if (i == 1){
             return BaseResult.ok("添加成功");
@@ -57,8 +57,8 @@ public class MotionController implements MotionLibraryApi {
     }
 
     @Override
-    @DeleteMapping
-    public BaseResult motionLibraryDeleteByMPId(Integer code) {
+    @DeleteMapping("/{id}")
+    public BaseResult motionLibraryDeleteByMPId(@PathVariable("id") Integer code) {
         Integer i = motionService.motionLibraryDeleteByMPId(code);
         if (i == 1){
             return BaseResult.ok("删除成功");

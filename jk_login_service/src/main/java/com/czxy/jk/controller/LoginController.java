@@ -29,20 +29,15 @@ public class LoginController implements LoginApi {
     @PostMapping("/login")
     @Override
     public BaseResult login( @RequestBody Login login) {
-        System.out.println("登录数据:" + login);
-        System.out.println("验证码校验:" + login.getVerifyCode());
         String redisCode = stringRedisTemplate.opsForValue().get("login" + login.getUsername());
         stringRedisTemplate.delete("login" + login.getUsername());
         try {
             if (login.getVerifyCode().equalsIgnoreCase(redisCode)) {
-
                 Login l = loginService.login(login);
                 if (login != null) {
-
                     return BaseResult.ok("登录成功", l);
                 } else {
                     return BaseResult.error("验证码或密码错误");
-
                 }
             } else {
                 return BaseResult.error("验证码或密码错误");

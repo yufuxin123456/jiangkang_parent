@@ -19,7 +19,7 @@ public class DietController implements DietLibraryApi {
 
     @Override
     @PostMapping
-    public BaseResult dietAll(Page page) {
+    public BaseResult dietAll(@RequestBody Page page) {
         PageInfo<DietLibrary> info = dietService.dietAll(page);
         return BaseResult.ok("成功", info);
     }
@@ -33,7 +33,7 @@ public class DietController implements DietLibraryApi {
 
     @Override
     @PutMapping
-    public BaseResult dietEdit(DietLibrary dietLibrary) {
+    public BaseResult dietEdit(@RequestBody DietLibrary dietLibrary) {
         Integer i = dietService.dietEdit(dietLibrary);
         if (i == 1){
             return BaseResult.ok("修改成功");
@@ -46,7 +46,7 @@ public class DietController implements DietLibraryApi {
 
     @Override
     @PostMapping("/add")
-    public BaseResult dietAdd(DietLibrary dietLibrary) {
+    public BaseResult dietAdd(@RequestBody DietLibrary dietLibrary) {
         Integer i = dietService.dietAdd(dietLibrary);
         if (i == 1){
             return BaseResult.ok("添加成功");
@@ -57,8 +57,8 @@ public class DietController implements DietLibraryApi {
     }
 
     @Override
-    @DeleteMapping
-    public BaseResult dietLibraryDeleteByMPId(Integer code) {
+    @DeleteMapping("/{id}")
+    public BaseResult dietLibraryDeleteByMPId(@PathVariable("id") Integer code) {
         Integer i = dietService.dietLibraryDeleteByMPId(code);
         if (i == 1){
             return BaseResult.ok("删除成功");

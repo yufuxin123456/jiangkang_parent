@@ -18,10 +18,10 @@ public class MemberService {
     private MemberMapper memberMapper;
 
     public PageInfo<MemberProfile> memberAll(Page page) {
-        if (page.getPageNum()<=0){
+        if (page.getPageNum()<=0  || page.getPageNum()==null){
             page.setPageNum(1);
         }
-        if (page.getPageSize()<=0){
+        if (page.getPageSize()<=0 || page.getPageSize() == null){
             page.setPageSize(5);
         }
         PageHelper.startPage(page.getPageNum() , page.getPageSize());
@@ -36,7 +36,7 @@ public class MemberService {
 
     }
 
-    public MemberProfile memberFindBy(Integer mpid) {
+    public MemberProfile memberFindBy(String mpid) {
         return memberMapper.selectByPrimaryKey(mpid);
     }
 
@@ -61,7 +61,7 @@ public class MemberService {
         }
     }
 
-    public BaseResult memberDeleteByMPId(Integer mpid) {
+    public BaseResult memberDeleteByMPId(String mpid) {
         int i = memberMapper.deleteByPrimaryKey(mpid);
         if (i==1){
             return BaseResult.ok("删除成功");
